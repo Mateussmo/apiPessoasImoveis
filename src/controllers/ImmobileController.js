@@ -54,7 +54,7 @@ module.exports = {
       res.send("Esse usuário não existe!");
     }
     fs.unlinkSync(req.file.path);
-    return res.json({ immobile, user: req.userId });
+    return res.json({ immobile });
   },
 
   async show(req, res) {
@@ -129,7 +129,7 @@ module.exports = {
       await immobile.save();
 
       fs.unlinkSync(req.file.path);
-      return res.json({ immobile, user: req.userId });
+      return res.json({ immobile });
     } else {
       res.status(401).send({ error: "Esse Id já existe!" });
     }

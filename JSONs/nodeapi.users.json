@@ -1,1 +1,2 @@
-{"_id":{"$oid":"5d607df525dabc2bc8c5b9b0"},"name":"Mateus Moreira","email":"mateusmoreirav@gmail.com","password":"$2a$10$gt5Vj4.QS3lz25D./lTQmOhnYLqZRfcj3b2SS9G8Qeec1SrWvIieG","createdAt":{"$date":{"$numberLong":"1566604789429"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5d6145143c07b33518806ea4"},"name":"Mateus","email":"mateusv@gmail.com","password":"$2a$10$1C1n6x1cFP0RsdPttpAYkOOs.FA2VrQEDu1uDSD64NVwC46Lxx94q","createdAt":{"$date":{"$numberLong":"1566655764539"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5d6147c73c07b33518806ea7"},"name":"Mateus","email":"mateus@gmail.com","password":"$2a$10$Bosek0KBKHgxs0LTcSzmsOOz.sfkY3b9z1.0mCUdW5DN8BCapG3Ke","createdAt":{"$date":{"$numberLong":"1566656455060"}},"__v":{"$numberInt":"0"}}
