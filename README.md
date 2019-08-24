@@ -1,21 +1,35 @@
 # apiPessoasImoveis
 Api feita em Node.js
 
-Para a rodar o projeto utilize o npm install.  
+Para instalar as dependências utilize o *npm install*  
+Para Rodar o server utilize *npm run dev*  
 
-Após isso importe os JSON's para o mongoDB. Para exportar os JSON's foi utilizado o export do Mongo, então para realizar a importação é recomendado o utilizar o mesmo.  
+
+Após isso importe os JSON's para o mongoDB. Para exportar os JSON's foi utilizado o export do Mongo, então para realizar a importação é recomendado o utilizar o mesmo. 
+Para acesso ao banco de dados. Nome do Database: nodeapi e não possui senha, rodando na porta 27017.  
+
 obs: O server está rodando na porta 3001.  
 Para verificar as funcionalidades da API, siga os seguintes passos:  
 * Utilizando a Rota: http://localhost:3001/api/register, faça o registro do seu usuário na API, com isso você deverá copiar o token e adicionar no Header. Ex: Postman/Insomnia.  
 
-![Exemplo de Registro](https://uploaddeimagens.com.br/imagens/registro-png-84185717-1138-43f3-92be-2aa27aa7347c)
+*O formato do JSON enviado é o seguinte:*  
+"name":"",  
+	"email":"",  
+	"password": ""  
+ 
 
-* Após criar o registro do usuário, você poderá verificar a funcionalidade de autenticação com o usuário cadastrado. Para isso acesse a rota: http://localhost:3001/api/authenticate. Informando somente o usuário e senha.
+* Após criar o registro do usuário, você poderá verificar a funcionalidade de autenticação com o usuário cadastrado. Para isso acesse a rota: http://localhost:3001/api/authenticate. Informando somente o usuário e senha.  
+
+*O formato do JSON enviado é o seguinte:*   
+	"email":"",  
+	"password": ""   
+ 
 
 * Com o usuário registrado e autenticado, acesse a rota http://localhost:3001/api/pessoas para realizar o cadastro de uma pessoa na API, as seguintes informações são necessárias:  
  *name, lastname, cpf, birthday, phone, street, state, city.*  
  
  **Obs: Tais informações são enviadas via Body - JSON.**
+ 
  
  * Após a pessoa cadastrada, pode-se verificar que é criada uma referência do user com a pessoa. E então é criado o registro no endpoint imóveis, por meio da rota: http://localhost:3001/api/imoveis. O content-type é o form-data, pois uma imagem (de um imóvel) deve ser enviada ao Mongo.  
  *title, description, offerType, immobileType, value, numberDormitory, hasGarage, city, street, neighborhood,houseNumber, state, image, people.*  
