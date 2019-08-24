@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5d607df525dabc2bc8c5b9b0"},"name":"Mateus Moreira","email":"mateusmoreirav@gmail.com","password":"$2a$10$gt5Vj4.QS3lz25D./lTQmOhnYLqZRfcj3b2SS9G8Qeec1SrWvIieG","createdAt":{"$date":{"$numberLong":"1566604789429"}},"__v":{"$numberInt":"0"}}
