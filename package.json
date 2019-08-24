@@ -1,0 +1,27 @@
+{
+  "name": "apipessoasimoveis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Mateus Moreira Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "eslint": "^5.16.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.5",
+    "mongoose-paginate": "^5.0.3",
+    "multer": "^1.4.2",
+    "require-dir": "^1.2.0",
+    "sharp": "^0.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
