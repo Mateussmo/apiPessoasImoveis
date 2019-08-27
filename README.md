@@ -24,7 +24,7 @@ O usuário primeiro deve se cadastrar na API. Para isso ele deve informar os seg
 # Autenticação do usuário  
 _Rota:http://localhost:3001/api/authenticate_  
 
-Após esse procedimento é gerado o token, salve o token é coloque no Header das próximas rotas. A imagem a seguinte mostra como esse procedimento deve ser realizado.  
+Após esse procedimento é gerado o token, salve o token é coloque no Header das próximas rotas. A imagem  seguinte mostra como esse procedimento deve ser realizado.  
 
 ![autenticacao](https://user-images.githubusercontent.com/26530039/63639164-b65ca700-c666-11e9-9639-3ed96fea393a.png)
 
